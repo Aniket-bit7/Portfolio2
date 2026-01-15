@@ -6,11 +6,19 @@ import { Suspense } from "react";
 import HeroText from "../components/HeroText";
 import { Astronaut } from "../components/Astronaut";
 import Loader from "../components/Loader";
+import { Particles } from "../components/Particles";
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
     <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space">
+      <Particles
+        className="absolute inset-0 -z-50"
+        quantity={100}
+        ease={80}
+        color={"#ffffff"}
+        refresh
+      />
       <HeroText />
       <figure
         className="absolute inset-0"
