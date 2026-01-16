@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Menu, X } from "lucide-react";
 
 function Navigation() {
   return (
@@ -43,11 +44,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
           >
-            <img
-              src={isOpen ? "assets/close.svg" : "assets/menu.svg"}
-              className="w-6 h-6"
-              alt="toggle"
-            />
+            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
           <nav className="hidden sm:flex">
             <Navigation />
