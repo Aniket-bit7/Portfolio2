@@ -19,7 +19,11 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Aniket Pathak</p>
             <p className="subtext">
-              I’ve built strong full-stack development skills, creating real-world, scalable web applications using modern frontend frameworks and production-ready backend systems.
+              I’ve built strong full-stack development skills by creating
+              real-world, scalable web applications using modern frontend
+              frameworks and production-ready backend systems, while also
+              actively learning robotics to broaden my technical expertise and
+              problem-solving skills.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -80,7 +84,8 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              Currently based in Mars, with availability for remote and on-site positions globally.
+              Currently based in Mars, with availability for remote and on-site
+              positions globally.
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -101,8 +106,9 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I have good hands-on experience in a variety of languages, frameworks, and tools that
-              allow me to build robust and scalable applications
+              I have good hands-on experience in a variety of languages,
+              frameworks, and tools that allow me to build robust and scalable
+              applications
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">

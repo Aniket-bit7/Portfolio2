@@ -3,6 +3,9 @@ import Navbar from './pages/Navbar'
 import Hero from './pages/Hero'
 import About from './pages/About'
 import Projects from './pages/Project'
+import Experiences from './pages/Experiences'
+import Contact from './pages/Contact'
+import Footer from './pages/Footer'
 
 const App = () => {
   return (
@@ -11,6 +14,9 @@ const App = () => {
       <Hero />
       <About/>
       <Projects/>
+      <Experiences/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }
